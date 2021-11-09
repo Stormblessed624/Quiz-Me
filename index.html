@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Me</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <nav>
+        <!-- high score and timekeeper -->
+        <a href="score.html" class="scores" target="_self" rel="noopener noreferrer"> View High scores </a>
+        <h3 class="time">Time: <span id="timer">0</span> </h3>
+    </nav>
+
+
+    <div class="container">
+        <!-- starting page -->
+        <main class="main-page" id="main-page">
+            <h1 class="page-title">Quiz Me Challenge!</h1>
+            <p class="instructions">Answer the following code-related questions within the time limit. 
+            <br>
+            Incorrect answers will penalize your score
+            <br>
+            by ten seconds.</p>
+            <button class="start-btn btn" id="start-btn">Start Quiz</button>
+        </main>
+    
+        <!-- Questions -->
+        <div class="hide" id="questionPage">
+            <h2 id="questionTitle"></h2>
+            <div>
+                <button class="answer-btn btn" id="answer1"></button>
+                <button class="answer-btn btn" id="answer2"></button>
+                <button class="answer-btn btn" id="answer3"></button>
+                <button class="answer-btn btn" id="answer4"></button>
+            </div>
+            <p id="answerCheck" class="hide"></p>
+        </div>
+
+        <div id="check" class="check hide"></div>
+    
+        <!--Score-->
+        <div class="final-page hide" id="finalPage">
+            <h2>Final Score <span id="final-score"></span> !</h2>
+            <p>
+                Please Enter your Initials: <input type="text" id="nameInput" class="">
+                <button type="submit" id="nameSubmitBtn" class="btn btn-info">Submit</button>
+            </p>
+        </div>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
