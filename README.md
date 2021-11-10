@@ -14,6 +14,8 @@
 
   ## Usage
   A user is prompted with a timed quiz and questions about Javascript fundamentals that stores high scores.
+  ![alt text](assets/Quiz-Me.png)
+  ![alt text](Quiz-Me2.png)
 
   ## Contributing
   Stormblessed624
