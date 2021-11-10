@@ -4,24 +4,19 @@
 
   ## Description
   A timed Javascript quiz.
+  https://stormblessed624.github.io/Quiz-Me/
 
   ## Table of Contents
   * [Usage](#usage)
   * [Contributing](#contributing)
 
-  ## Installation
-  
-
   ## Usage
   A user is prompted with a timed quiz and questions about Javascript fundamentals that stores high scores.
-  ![alt text](assets/Quiz-Me.png)
-  ![alt text](Quiz-Me2.png)
+  ![alt text](assets/images/Quiz-Me.png)
+  ![alt text](assets/images/Quiz-Me2.png)
 
   ## Contributing
   Stormblessed624
-
-  ## Tests
-  
 
   ## Questions?
   - Reach me at my email: matt.white.624@gmail.com
